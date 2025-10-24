@@ -78,7 +78,7 @@ def show_new(lista: list) -> None:
 def main():
     #prepara todos os objetos e controla o que e feito a partir dos inputs
     parser = Parser()
-    doc = Json("info.json", "/home/martim/Secretária/Python/projeto_ai_news")
+    doc = Json("info.json", "meu path")
 
     OnlineMenu.menu("AI_News")
 
